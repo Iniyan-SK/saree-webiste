@@ -1,0 +1,458 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header marquee {
+    background-color: black;
+    height: 50px;
+    padding-top: 13px;
+    color: white;
+    font-size: 17px;
+    text-transform: uppercase;
+}
+
+.one-nav nav {
+    display: flex;
+}
+
+.one-nav nav ul {
+    display: flex;
+    gap: 50px;
+    list-style: none;
+}
+
+.nav-one-para p {
+    font-family: "Playfair Display", serif;
+}
+
+.one-nav nav ul li a {
+    text-transform: uppercase;
+    font-size: 16px;
+    color: gray;
+    text-decoration: none;
+    font-family: "Playfair Display", serif;
+}
+
+.one-nav nav ul li a:hover {
+    color: black;
+}
+
+.one-nav {
+    background-color: rgb(224, 222, 222);
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.nav-one-para {
+    margin-left: 150px;
+}
+
+.nav-one-para p a {
+    color: red;
+    text-decoration: none;
+    font-family: "Playfair Display", serif;
+}
+
+
+.two-nav nav {
+    display: flex;
+    justify-content: space-around;
+    height: 50px;
+    align-items: center;
+}
+
+.tite p {
+    font-size: 3rem;
+    font-family: "Italianno", cursive;
+    letter-spacing: 2px;
+
+}
+
+.logos {
+    display: flex;
+    gap: 10px;
+}
+
+.third-nav nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 15px;
+    list-style: none;
+    height: 50px;
+}
+
+.third-nav nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-family: "Playfair Display", serif;
+    font-size: 17px;
+
+}
+
+/* Hero section */
+
+.hero-section {
+    background-image: url(./images/bg-0111.webp);
+    background-size: cover;
+    height: 90vh;
+    width: 100%;
+}
+
+.hero-container {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    background-size: cover;
+    flex-wrap: wrap;
+}
+
+
+.hero-section p {
+    font-size: 2rem;
+    font-weight: 100;
+    width: 800px;
+    color: white;
+    font-family: "Roboto", sans-serif;
+}
+
+.para button {
+    height: 50px;
+    width: 155px;
+    margin-top: 15px;
+    border: none;
+    background-color: transparent;
+    color: white;
+    font-weight: 100;
+    font-size: 17px;
+    border: 1px solid gray;
+}
+
+.pro-title {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 100;
+    font-family: "Poppins", sans-serif;
+    padding-top: 25px;
+}
+
+
+.pro-title-02 {
+    text-align: center;
+    font-weight: 200;
+    font-family: "Poppins", sans-serif;
+    padding-bottom: 25px;
+}
+
+/* Third section */
+
+.images img {
+    height: 450px;
+    width: 318px;
+}
+
+.container-title-01 p {
+    font-weight: 500;
+    letter-spacing: 2px;
+    font-family: "Poppins", sans-serif;
+    font-size: 12px;
+    padding-top: 5px;
+}
+
+.container-title-02 p {
+    font-weight: 200;
+    font-family: "Poppins", sans-serif;
+    padding-top: 5px;
+}
+
+.container-holder {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2px;
+}
+
+/* Banner section */
+.banner {
+    background-image: url(https://www.singhanias.in/cdn/shop/collections/kanjivarsam_1024x_3e7e2270-5df1-4a3d-abcd-0cc280b0d874.webp?v=1712141396);
+    height: 70vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.banner-title p {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 100;
+    font-family: "Poppins", sans-serif;
+    padding: 25px 0px;
+}
+
+.banner-inner p {
+    color: #FFFFFF;
+    width: 700px;
+    font-size: 1.2rem;
+    text-align: justify;
+    padding-top: 150px;
+    padding-left: 50px;
+}
+
+.banner-inner button {
+    height: 55px;
+    width: 167px;
+    margin-top: 15px;
+    margin-left: 50px;
+    border: none;
+    background-color: #D35400;
+    color: white;
+    font-size: 17px;
+    font-weight: 700;
+    border-radius: 5px;
+
+}
+
+.video-container {
+    display: flex;
+    justify-content: center;
+    gap: 3px;
+    flex-wrap: wrap;
+}
+
+.video-container video {
+    height: 450px;
+}
+
+.sport-title p {
+    text-align: center;
+    font-size: 2.2rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    padding: 25px 0px;
+}
+
+.offer img {
+    height: 50vh;
+    width: 100%;
+}
+
+.offer {
+    display: flex;
+    justify-content: center;
+    background-color: whitesmoke;
+    flex-wrap: wrap;
+}
+
+
+.para img {
+    height: 400px;
+}
+
+.offer ul {
+    margin-top: 50px;
+}
+
+.offer ul li {
+    color: white;
+    margin-top: 15px;
+    text-transform: capitalize;
+    font-size: 1rem;
+}
+
+.saree-title p {
+    text-align: center;
+    font-size: 2.2rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    padding: 25px 0px;
+}
+
+.saree-image img{
+    height: 480px;
+    width: 370px;
+}
+
+.saree-coll{
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    flex-wrap: wrap;
+}
+.saree-design p{
+    font-weight: 300;
+    font-family: "Poppins", sans-serif;
+    padding-top: 5px;
+}
+.saree-price p{
+    font-weight: 200;
+    font-family: "Poppins", sans-serif;
+    padding-top: 5px;
+}
+
+/* Combination Query */
+@media (min-width:300px) and (max-width:767px){
+
+    header marquee {
+    background-color: black;
+    height: 50px;
+
+}
+
+.one-nav nav {
+    display: block;
+    height: 200px;
+}
+
+.one-nav nav ul {
+    display: block;
+    margin-left: 5px;
+}
+
+.one-nav nav ul li{
+    margin-top: 10px;
+}
+
+.nav-one-para p {
+    font-family: "Playfair Display", serif;
+    margin-top: 10px;
+}
+
+
+
+.one-nav {
+    background-color: rgb(224, 222, 222);
+    height: 250px;
+    display: block;
+
+}
+
+.nav-one-para {
+    margin-left: 5px;
+}
+
+
+.two-nav nav {
+    display: block;
+    justify-content: space-around;
+    height: 50px;
+    align-items: center;
+}
+
+
+.tite p {
+    font-size: 2rem;
+    font-family: "Italianno", cursive;
+    letter-spacing: 2px;
+    text-align: center;
+
+}
+
+.logos {
+    display: block;
+    margin-left: 5px;
+}
+
+.third-nav nav{
+    display: block;
+}
+
+.third-nav nav ul {
+    display: block;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 15px;
+    list-style: none;
+    height: 450px;
+}
+
+.third-nav nav ul li{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+/* Hero sections */
+
+.hero-section {
+    background-image: url(./images/bg-0111.webp);
+    background-size: cover;
+    height: 25vh;
+    width: 100%;
+}
+
+.hero-container {
+    display: flex;
+    justify-content: center;
+    height: 30vh;
+    align-items: center;
+    background-size: cover;
+    flex-wrap: wrap;
+}
+
+
+.hero-section p {
+    font-size: 0.5rem;
+    font-weight: 100;
+    width: 300px;
+    color: white;
+    line-height: 15px;
+    font-family: "Roboto", sans-serif;
+}
+
+.para button {
+    height: 30px;
+    width: 135px;
+    margin-top: 15px;
+    border: none;
+    background-color: transparent;
+    color: white;
+    font-weight: 100;
+    font-size: 0.7rem;
+    border: 1px solid gray;
+}
+
+
+/* Banner section */
+.banner {
+    background-image: url(https://www.singhanias.in/cdn/shop/collections/kanjivarsam_1024x_3e7e2270-5df1-4a3d-abcd-0cc280b0d874.webp?v=1712141396);
+    height: 25vh;
+    background-position: center;
+    background-size: cover;
+}
+
+.banner-title p {
+    text-align: center;
+    font-size: 0.5rem;
+    font-weight: 100;
+    font-family: "Poppins", sans-serif;
+    padding: 25px 0px;
+}
+
+.banner-inner p {
+    color: #FFFFFF;
+    width: 300px;
+    font-size: 0.7rem;
+    text-align: justify;
+    padding-top: 35px;
+    padding-left: 10px;
+}
+
+.banner-inner button {
+    height: 30px;
+    width: 120px;
+    margin-top: 15px;
+    margin-left: 50px;
+    border: none;
+    background-color: #D35400;
+    color: white;
+    font-size: 12px;
+    font-weight: 500;
+    border-radius: 5px;
+
+}
+
+
+}
